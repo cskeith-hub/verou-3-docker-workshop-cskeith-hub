@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.box{
+    margin-top: 50px;
+}
+
+#play{
+    margin-left: 45%;
+}
+
+.choiceBox{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+#choice1{
+    border:2px solid white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#choice2{
+    border:2px solid white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button{
+    margin-left: 16%;
+}
