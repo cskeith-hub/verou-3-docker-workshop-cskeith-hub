@@ -17,3 +17,7 @@ CMD ["/run.sh"]
 
 # now use terminal commands in terminal:
     # docker build -t + image name
+
+# run build
+
+# docker run -t --app image name 

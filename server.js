@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 let port = 3000
 
-app.get('/', (req, res) => {
+app.get('/docker-test', (req, res) => {
     res.send('Hello World! we are baby Developers. I hope you are happy to see us.')
 })
 
